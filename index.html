@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+     crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet"> 
+     
+     <link rel="stylesheet" href="styles.css">
+    <title>Jumara Pimenta</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="fotoPerfil" src="./foto-jumara.jpg" alt="Foto Jumara">
+        </div>
+        <ul>
+           <li>
+               <a target="_blank" href="https://github.com/jumara-pimenta">GitHub</a>
+           </li>
+           <li>
+               <a target="_blank" href="https://www.linkedin.com/in/jumara-souza-pimenta/">Linkedin</a>
+           </li>
+           <li><a target="_blank" href="mailto:jumara.spimenta@gmail.com">E-mail</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Jumara Pimenta</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
+            </div>
+            <div style="display: none;" id="about">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde officiis deserunt sint dolorum ducimus rerum est iusto nemo, excepturi corporis error impedit fuga saepe voluptas laboriosam! Porro sequi eligendi nobis.</p>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Deixe seu contato</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="seu melhor email :)">
+                    <button>enviar!</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
