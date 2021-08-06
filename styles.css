@@ -2,13 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #a09f6a;
+    color: #4d203f;
     font-family: 'Roboto', sans-serif;
 }
 
 ul {
     list-style: none;
-    font-style: italic;
 }
 
 a {
@@ -16,9 +15,8 @@ a {
     font-weight: 500;
 }
 
-body {
-background: black;
-    
+main {
+    background: #fff;
 }
 
 header {
@@ -26,8 +24,9 @@ header {
     justify-content: space-around; 
     align-items: center;
     padding: 10px;
-    box-shadow: 1px  1px 10px  #fff;
+    box-shadow: 1px  1px 10px  rgb(209, 99, 99);
     margin-bottom: 45px;
+    background-color: #f5d3d3;
 }
 
 header ul {
@@ -43,7 +42,7 @@ header ul li a{
 }
 
 header ul li a:hover{
-    color: #c0a717;
+    color: #e72a60;
 }
 
 .fotoPerfil{
@@ -102,14 +101,15 @@ header ul li a:hover{
 .form input {
     width: 50%;
     padding: 5px 10px;
-    border: none;
+    border: #f5d3d3;
     border-radius: 5px 0px 0px 5px;
+    background-color: #f5d3d3;
 }
 
 .form button {
     width: 15%;
     padding: 5px 10px;
-    background: linear-gradient(to right, #c09717 50%, #9c551b 50%);
+    background: linear-gradient(to right, #e72a60 50%, #a33c5f 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     color: #fff;
