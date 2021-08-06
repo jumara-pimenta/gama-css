@@ -1,6 +1,6 @@
 # Treinando CSS
 
-Projeto realizado durante o curso da Gama Academy, para aprimorar o CSS. 
+Projeto realizado, durante o curso da Gama Academy, com a finalidade de treinar o CSS e desenvolver novos conhecimentos. O projeto foi realizado utilizando HTML, CSS e JavaScript.
 
 ## Site
 
